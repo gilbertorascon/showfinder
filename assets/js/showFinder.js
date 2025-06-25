@@ -1,6 +1,6 @@
 window.addEventListener('load', () => {
 
-    console.log('Test Push');
+    console.log('Fixing Links');
 
     document.getElementById('search_form').addEventListener('submit', (e) => {
         e.preventDefault();
