@@ -1,0 +1,24 @@
+.navbar-brand {
+    font-size: 3rem;
+}
+
+#search_form input::placeholder {
+    color: #fff;
+    text-align: center;
+}
+
+.result-image {
+    cursor: pointer;
+    transition: transform .3s;
+}
+
+.result-image:hover {
+    transform-origin: center;
+    transform: scale(1.1);
+}
+
+.modal-result-image {
+    width: 200px;
+    height: 300px;
+    margin: 0 auto;
+}
