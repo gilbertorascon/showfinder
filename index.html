@@ -14,9 +14,9 @@
 <body>
     <div id="container">
         <header>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" data-bs-theme="dark">
+            <nav class="navbar navbar-expand bg-body-tertiary " data-bs-theme="dark">
                 <div class="container-fluid">
-                    <h1 class="navbar-brand d-flex gap-2 align-items-center my-0 mx-auto">
+                    <div class="navbar-brand d-flex gap-2 align-items-center my-0 fw-bold">
                         ShowFinder
                         <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill=" currentColor"
                             class="bi bi-camera-reels" viewBox="0 0 16 16">
@@ -25,22 +25,25 @@
                                 d="M9 6h.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 7.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 16H2a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2zm6 8.73V7.27l-3.5 1.555v4.35zM1 8v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1" />
                             <path d="M9 6a3 3 0 1 0 0-6 3 3 0 0 0 0 6M7 3a2 2 0 1 1 4 0 2 2 0 0 1-4 0" />
                         </svg>
-                    </h1>
+                    </div>
+                    <div class="navbar-nav text-center">
+                        <a class="nav-link text-white fw-bold" href="https://www.tvmaze.com/api" target="_blank">API</a>
+                        <a class="nav-link text-white fw-bold" href="https://github.com/gilbertorascon/showfinder"
+                            target="_blank">Repo</a>
+                    </div>
                 </div>
             </nav>
         </header>
         <main class="container-fluid min-vh-100 pb-3 bg-dark text-white">
 
             <section class="container pt-5">
+                <h1 class="text-center">Search For A TV Show</h1>
                 <form action="" id="search_form">
                     <div class="form group text-center">
-                        <label for="search" class="form-label">
-                            <h2>Search For A TV Show</h2>
-                        </label>
-                        <input type="search" name="search" id="search" class="form-control bg-dark text-white"
-                            placeholder="The Office" required autocomplete="off">
+                        <input type="search" name="search" id="search" class="form-control bg-dark text-white" required
+                            autocomplete="off">
                     </div>
-                    <button type="submit" class="btn btn-success d-block my-3 mx-auto">Search</button>
+                    <button type="submit" class="btn btn-primary d-block my-3 mx-auto">Search</button>
                 </form>
             </section>
 
