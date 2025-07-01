@@ -1,12 +1,3 @@
-.navbar-brand {
-    font-size: 3rem;
-}
-
-#search_form input::placeholder {
-    color: #fff;
-    text-align: center;
-}
-
 .result-image {
     cursor: pointer;
     transition: transform .3s;
@@ -22,3 +13,5 @@
     height: 300px;
     margin: 0 auto;
 }
+
+@media screen and (max-width: px) {}
